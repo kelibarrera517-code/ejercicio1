@@ -43,3 +43,8 @@ while True:
 
     else:
         print("Reprobó")
+
+    continuar = input("¿Desea ingresar otro estudiante? (si/no): ")
+
+    if continuar == "no":
+        break
